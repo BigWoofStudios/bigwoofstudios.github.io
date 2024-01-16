@@ -1,0 +1,37 @@
+.globalHeader {
+  width: 100%;
+  height: var(--global-header-height);
+  background-color: var(--background-color-default);
+  border-bottom: 1px solid var(--border-color-default);
+  position: fixed;
+  top: 0;
+  display: flex;
+
+  a {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: var(--sizing-4);
+    text-align: center;
+
+    &:last-child {
+      margin-right: var(--sizing-5);
+    }
+  }
+}
+.homeLogo {
+  height: var(--global-header-height);
+  width: var(--global-header-height);
+  img {
+    height: var(--global-header-height);
+    width: var(--global-header-height);
+    box-sizing: border-box;
+    padding: var(--sizing-4);
+  }
+}
+
+.linksWrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}

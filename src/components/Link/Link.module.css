@@ -1,0 +1,14 @@
+.a {
+  color: rgb(41, 172, 232);
+  box-sizing: border-box;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    color: rgb(21, 135, 188);
+    text-decoration: underline;
+  }
+  &:visited {
+    color: rgb(25, 93, 187);
+  }
+}

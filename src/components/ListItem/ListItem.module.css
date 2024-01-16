@@ -1,0 +1,12 @@
+.listItem {
+  padding: var(--sizing-4);
+  margin: 0;
+}
+
+.clickable {
+  cursor: pointer;
+  border-radius: var(--sizing-3);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

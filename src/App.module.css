@@ -1,0 +1,9 @@
+.main {
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  margin: var(--global-header-height) auto var(--sizing-4) auto;
+  box-sizing: border-box;
+  padding: var(--sizing-6);
+}

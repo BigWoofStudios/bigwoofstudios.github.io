@@ -1,0 +1,49 @@
+:root {
+  font-family:
+    "Noto Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color-default);
+  background-color: var(--background-color-default);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+:root {
+  --global-header-height: 84px;
+
+  --background-color-default: #010409;
+
+  --text-color-default: #e6edf3;
+  --text-color-muted: #c2c5c7;
+
+  --border-color-default: #21262d;
+
+  /* Sizing */
+  --sizing-1: 2px;
+  --sizing-2: 4px;
+  --sizing-3: 8px;
+  --sizing-4: 12px;
+  --sizing-5: 16px;
+  --sizing-6: 24px;
+  --sizing-7: 32px;
+  --sizing-8: 48px;
+  --sizing-9: 56px;
+}

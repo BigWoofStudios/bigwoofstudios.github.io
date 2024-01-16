@@ -1,0 +1,14 @@
+.divider {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  margin: var(--sizing-2) 0;
+}
+
+.vertical {
+  display: inline;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0;
+  margin: 0 var(--sizing-2);
+}
