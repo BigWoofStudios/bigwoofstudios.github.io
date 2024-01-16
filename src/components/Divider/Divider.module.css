@@ -9,6 +9,6 @@
   display: inline;
   height: 100%;
   border-right: 1px solid var(--border-color-default);
-  border-bottom: 0;
+  border-bottom: none;
   margin: 0 var(--sizing-2);
 }
