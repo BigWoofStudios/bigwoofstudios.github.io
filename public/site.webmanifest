@@ -1,0 +1,13 @@
+{
+  "name": "Big Woof Studios",
+  "icons": [
+    {
+      "src": "/favicon.webp",
+      "sizes": "64x64",
+      "type": "image/webp"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#010409",
+  "display": "browser"
+}
