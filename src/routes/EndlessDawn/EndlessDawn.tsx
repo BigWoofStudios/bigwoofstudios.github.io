@@ -18,13 +18,13 @@ export const EndlessDawn: Component = () => {
       </Typography>
       <Divider />
       <Typography>
-        Embark on an epic journey in "Endless Dawn," where ancient magic meets
+        Embark on an epic journey in Endless Dawn, where ancient magic meets
         untamed wilderness in the mystical realm of Eldermyst. Forge your path
         as a hero among legends, uniting races against a darkness that has
         awakened once more. Arm yourself with enchanted weapons and arcane
         knowledge, explore forgotten ruins, and challenge the might of foes both
         seen and unseen. Your saga begins now—will you rise as the beacon of
-        hope in a land on the brink of eternal shadow? Join "Endless Dawn" and
+        hope in a land on the brink of eternal shadow? Join Endless Dawn and
         etch your tale into the annals of time.
       </Typography>
       <Link href="/endless-dawn/lore">Read the lore</Link>
