@@ -10,7 +10,7 @@ export const Races: Component = () => {
         <ListItem href="/endless-dawn/races/human">Human</ListItem>
         <ListItem href="/endless-dawn/races/elf">Elf</ListItem>
         <ListItem href="/endless-dawn/races/dwarf">Dwarf</ListItem>
-        <ListItem href="/endless-dawn/races/tormog">Tormog</ListItem>
+        <ListItem href="/endless-dawn/races/tormŏg">Tormŏg</ListItem>
         <ListItem href="/endless-dawn/races/lümycus">Lümycus</ListItem>
         <ListItem href="/endless-dawn/races/dral'kath">Dral'kath</ListItem>
       </List>
