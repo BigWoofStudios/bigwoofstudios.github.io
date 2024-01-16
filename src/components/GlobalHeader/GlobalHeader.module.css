@@ -1,7 +1,7 @@
 .globalHeader {
   width: 100%;
   height: var(--global-header-height);
-  background-color: var(--background-color-default);
+  background-color: var(--gray);
   border-bottom: 1px solid var(--border-color-default);
   position: fixed;
   top: 0;

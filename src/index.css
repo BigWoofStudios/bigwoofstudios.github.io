@@ -29,12 +29,32 @@ body {
 :root {
   --global-header-height: 84px;
 
-  --background-color-default: #010409;
+  --background-color-default: var(--dark-gray);
 
-  --text-color-default: #e6edf3;
-  --text-color-muted: #c2c5c7;
+  --text-color-default: rgb(237, 228, 215);
+  --text-color-muted: rgb(236, 224, 190);
 
-  --border-color-default: #21262d;
+  --border-color-default: var(--light-gray);
+
+  /* Colors */
+  --white: rgb(255, 255, 255);
+  --light-gray: rgb(56, 55, 55);
+  --gray: rgb(24, 24, 24);
+  --dark-gray: rgb(19, 19, 19);
+  --black: rgb(0, 0, 0);
+
+  --light-blue: rgb(41, 153, 173);
+  --blue: rgb(17, 50, 56);
+  --dark-blue: rgb(11, 32, 39);
+
+  --purple: rgb(46, 17, 56);
+  --dark-purple: rgb(31, 11, 39);
+
+  --green: rgb(25, 56, 17);
+  --dark-green: rgb(15, 39, 11);
+
+  --orange: rgb(56, 38, 17);
+  --dark-orange: rgb(39, 24, 11);
 
   /* Sizing */
   --sizing-1: 2px;
