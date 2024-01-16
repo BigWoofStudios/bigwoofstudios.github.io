@@ -5,9 +5,9 @@ import { races } from "./data";
 
 export const Race: ParentComponent = () => {
   const params = useParams();
-  const race = races.find(({ name }) => {
-    return decodeURIComponent(params.race) === name.toLocaleLowerCase();
-  });
+  const race = races.find(
+    ({ name }) => decodeURIComponent(params.race) === name.toLocaleLowerCase(),
+  );
 
   return (
     <>
@@ -15,9 +15,9 @@ export const Race: ParentComponent = () => {
         <Typography as="h1">{race!.name}</Typography>
         <Divider />
         <Typography>{race!.description}</Typography>
-        <Typography as="h2">Culture</Typography>
+        <Typography as="h3">Culture</Typography>
         <Typography>{race!.culture}</Typography>
-        <Typography as="h2">Role</Typography>
+        <Typography as="h3">Role</Typography>
         <Typography>{race!.role}</Typography>
       </Show>
     </>

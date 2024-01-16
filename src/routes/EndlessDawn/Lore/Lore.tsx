@@ -1,19 +1,20 @@
+import { Divider, Typography } from "#components";
 import styles from "./Lore.module.css";
 
 export const Lore = () => {
   return (
     <div class={styles.lore}>
-      <h1>Endless Dawn: Lore</h1>
-      <b>The Original Races</b>
-      <p>
+      <Typography as="h1">Endless Dawn: Lore</Typography>
+      <Divider />
+      <Typography>
         In an age long past, Eldermyst was a land where the Humans, Dwarves,
         Elves, Trolls, and Orcs coexisted, each race with its own domain and
         destiny. The Trolls and Orcs, however, were embroiled in a bitter and
         enduring rivalry. Their conflicts would shape not only their own fates
         but also the landscape of Eldermyst.
-      </p>
-      <b>The Birth of Dral’Kath</b>
-      <p>
+      </Typography>
+      <Typography as="h3">The Birth of Dral’Kath</Typography>
+      <Typography>
         It was amidst this backdrop of enmity that the Humans, driven by their
         curiosity and the relentless pursuit of power, stumbled upon an ancient
         and dark magic deep within uncharted territories of Eldermyst. This
@@ -25,9 +26,9 @@ export const Lore = () => {
         ancient magic, it consumed them, transforming them into the Dral'Kath,
         beings of immense darkness and malice. Their transformation marked the
         beginning of an era of fear and despair for Eldermyst.
-      </p>
-      <b>The Creation of Lumycus</b>
-      <p>
+      </Typography>
+      <Typography as="h3">The Creation of Lumycus</Typography>
+      <Typography>
         In the face of the Dral'Kath threat, the Elves of Eldermyst, deeply
         attuned to the world's ancient magics, gathered in their sacred groves.
         Under the guidance of their Archdruid, they initiated a ritual of
@@ -42,9 +43,9 @@ export const Lore = () => {
         encroaching darkness, representing not just the Elves' will to protect
         their home but also Eldermyst's own resolve to resist the corruption of
         the Dral'Kath.
-      </p>
-      <b>The Great Alliance</b>
-      <p>
+      </Typography>
+      <Typography as="h3">The Great Alliance</Typography>
+      <Typography>
         When the Dral'Kath threatened to consume Eldermyst with their darkness,
         the Elves, with the newly created Lumycus, called upon the races to
         unite in defense of their land. The urgency of the threat overshadowed
@@ -60,9 +61,9 @@ export const Lore = () => {
         Dral'Kath into its depths. Through the valor and sacrifice of all, the
         Dral'Kath were finally ensnared and sealed within the dark chasm known
         as The Abyss, their malevolent force contained.
-      </p>
-      <b>Tormogs and the Re-Emergence of Dral’Kath</b>
-      <p>
+      </Typography>
+      <Typography as="h3">Tormogs and the Re-Emergence of Dral’Kath</Typography>
+      <Typography>
         The tale of this great alliance and the entrapment of the Dral'Kath
         faded into legend, treated by many as just a story from a bygone era.
         But as is often the case with such ancient and powerful evils, the
@@ -82,7 +83,7 @@ export const Lore = () => {
         resurgence of an ancient evil. Beckoned heroes must rise to face a world
         where ancient legends, forgotten horrors, and looming shadow of an
         endless dawn have come to life once more.
-      </p>
+      </Typography>
     </div>
   );
 };
