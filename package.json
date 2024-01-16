@@ -11,7 +11,7 @@
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src test --check",
     "prettier:fix": "npm run prettier -- --write",
-    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && chmod +x ./deploy.sh && ./deploy.sh"
   },
   "imports": {
     "#*": [
